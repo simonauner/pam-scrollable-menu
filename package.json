@@ -1,0 +1,22 @@
+{
+  "name": "pam-scrollable-menu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonauner/pam-scrollable-menu.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simonauner/pam-scrollable-menu/issues"
+  },
+  "homepage": "https://github.com/simonauner/pam-scrollable-menu#readme",
+  "dependencies": {
+    "pam-css": "^1.0.0-beta.2"
+  }
+}

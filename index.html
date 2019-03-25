@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <link href="./node_modules/pam-css/dist/pam.css" rel="stylesheet" />
+    <style>
+      html,
+      body {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div pam-Menu="horizontal scrollable">
+      <ul pam-Menu-List>
+        <li pam-Menu-Item>
+          <a href="#" pam-Menu-Link>Home</a>
+        </li>
+        <li pam-Menu-Item>
+          <a href="#" pam-Menu-Link>Home</a>
+        </li>
+        <li pam-Menu-Item>
+          <a href="#" pam-Menu-Link>Home</a>
+        </li>
+
+        <li pam-Menu-Item pam-Menu-Has-Children pam-Menu-Allow-Hover>
+          <a href="#" pam-Menu-Link>Stuff</a>
+          <ul pam-Menu-Children>
+            <li pam-Menu-Item><a pam-Menu-Link href="#">Node</a></li>
+            <li pam-Menu-Item><a pam-Menu-Link href="#">JavaScript</a></li>
+            <li pam-Menu-Item><a pam-Menu-Link href="#">Angular</a></li>
+            <li pam-Menu-Item><a pam-Menu-Link href="#">React</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
